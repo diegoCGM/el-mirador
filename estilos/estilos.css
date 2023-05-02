@@ -301,8 +301,12 @@ line-height: 1.2em;
     }
 
     .cont-links{
-
+     width: 80%;
         flex-direction: row;
+    
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
     }
 
     .sublinks{
@@ -312,14 +316,16 @@ line-height: 1.2em;
 
     .cont-links li{
 
-        border-right: 2px solid black;
-        
+        border-right: 3px solid black;
+        padding-right:15px ;
     }
 
     .contenedor-menu h1{
 
-        border-right: 2px solid black;
-        padding-right: 10px;
+        border-right: 3px solid black;
+        padding-right: 15px;
+        
+        
     }
 
 
@@ -333,6 +339,7 @@ line-height: 1.2em;
 
         width: 70%;
         margin: auto;
+        
     }
 .link-item .item{
     
@@ -365,6 +372,10 @@ line-height: 1.2em;
 
 }
 
+.nav-menu{
+    height: 120px;
+   
+}
 
   }
 
